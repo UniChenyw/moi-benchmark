@@ -1,0 +1,20 @@
+schema_version: 1
+track: nlp2sql
+snapshot_date: "2026-07-22"
+frozen: false
+
+planned_systems:
+  - id: moi-nlp2sql
+    role: system_under_test
+    revision: null
+  - id: db-gpt
+    role: product_candidate
+    revision: null
+  - id: xiyan-sql
+    role: method_candidate
+    revision: null
+  - id: reforce
+    role: method_candidate
+    revision: null
+
+note: Candidate roles and versions remain unapproved until the NLP2SQL plan review is complete.

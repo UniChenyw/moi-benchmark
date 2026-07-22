@@ -1,7 +1,7 @@
 # Astra 与竞品的 Benchmark Adapter 集成可行性研究
 
 > **已过时的候选集研究：请勿按本文四平台名单实施。** 本文只保留 LangGraph/CrewAI/Dify 的历史接口分析；它们不属于当前 Astra 产品主榜。  
-> 当前竞品范围、Runner 契约和执行计划以 [astra-benchmark-plan.md](../plans/astra-benchmark-plan.md) 为准；首期产品为 Astra、Hermes、Codex、Goose。
+> 当前竞品范围、Runner 契约和执行计划以 [Astra Plan 草稿](../../plans/drafts/v0.2.md) 为准；首期产品为 Astra、Hermes、Codex、Goose。
 
 > 版本：v0.2  
 > 日期：2026-07-21  

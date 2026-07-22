@@ -9,6 +9,9 @@ body:
       label: Track
       options:
         - Astra
+        - Memoria
+        - Document parsing
+        - RAG
         - NLP2SQL
         - Shared infrastructure
         - Governance and reporting

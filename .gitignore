@@ -1,7 +1,4 @@
-# Local external source checkouts; provenance is tracked in systems/manifest.yaml.
-/agentops/
-/astra/
-/hermes-agent/
+# Local external source checkouts; provenance is tracked inside each Track.
 /external/
 
 # Secrets and machine-local configuration.
@@ -23,15 +20,15 @@ __pycache__/
 node_modules/
 target/
 
-# Downloaded, private or generated dataset payloads.
-/datasets/downloads/
-/datasets/private/
-/datasets/generated/
-/datasets/**/raw/
+# Downloaded, private or generated Track dataset payloads.
+/*/datasets/downloads/
+/*/datasets/private/
+/*/datasets/generated/
+/*/datasets/**/raw/
 
-# Raw run artifacts stay in controlled artifact storage. Commit manifests and summaries.
-/runs/**/raw/
-/runs/**/logs/
-/runs/**/traces/
-/artifacts/
+# Raw Track run artifacts stay in controlled artifact storage. Commit manifests and summaries.
+/*/runs/**/raw/
+/*/runs/**/logs/
+/*/runs/**/traces/
+/*/artifacts/
 /.cache/

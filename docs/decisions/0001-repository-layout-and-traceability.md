@@ -1,6 +1,6 @@
 # ADR-0001：仓库分层与项目留痕
 
-- 状态：Accepted
+- 状态：Superseded by [ADR-0002](0002-root-level-track-layout.md)
 - 日期：2026-07-22
 
 ## 背景

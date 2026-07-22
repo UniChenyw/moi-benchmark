@@ -1,8 +1,8 @@
 # MOI 整体 + 功能级 Benchmark 方案
 
 > **非权威旧稿：请勿直接据此实施。** 本文包含已确认的竞品层级混淆、项目状态/许可证过时及测评指标错误，仅保留作问题线索。  
-> 当前调研依据：[moi-benchmark-research.md](../research/moi-benchmark-research.md)  
-> 当前执行方案：[astra-benchmark-plan.md](../plans/astra-benchmark-plan.md) 与 [nlp2sql-benchmark-plan.md](../plans/nlp2sql-benchmark-plan.md)
+> 历史调研依据：[moi-benchmark-research-v0.1.md](./moi-benchmark-research-v0.1.md)  
+> 当前草稿入口：[Astra](../../../astra/plans/drafts/v0.2.md) 与 [NLP2SQL](../../../nlp2sql/plans/drafts/v0.1.md)
 
 > 目标：证明 MOI 在 AI+DATA 一体化和各功能模块上，相对于开源/主流大厂产品的性能与效果优势。
 

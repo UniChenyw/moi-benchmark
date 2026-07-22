@@ -1,0 +1,26 @@
+schema_version: 1
+track: astra
+snapshot_date: "2026-07-22"
+frozen: false
+
+local_sources:
+  - id: astra
+    role: system_under_test
+    source: https://github.com/matrixorigin/astra.git
+    revision: 9bf87cbede29bfaa7f12ebec978a71a4c9e7ec84
+    local_path: external/astra
+    working_tree: modified
+  - id: hermes-agent
+    role: comparator_candidate
+    source: https://github.com/NousResearch/hermes-agent.git
+    revision: f4df260f26c93f15694698869f3ea8e965eea301
+    local_path: external/hermes-agent
+    working_tree: clean
+  - id: agentops
+    role: observability_reference
+    source: https://github.com/AgentOps-AI/agentops.git
+    revision: f8e907b92dabe47232978023fdcb01e2a7d4b752
+    local_path: external/agentops
+    working_tree: modified
+
+note: Candidate roles and versions remain unapproved until the Astra plan review is complete.

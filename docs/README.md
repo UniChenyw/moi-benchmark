@@ -1,9 +1,11 @@
-# 文档索引
+# 项目级文档
 
-- `plans/`：当前可执行计划；内容变更需要在 PR 中说明对实验设计的影响。
-- `research/`：竞品、数据集、指标和适配可行性证据。
-- `decisions/`：影响长期兼容性、公平性或发布口径的 ADR。
-- `progress/`：按日期追加的阶段总结，不回写或美化旧记录。
-- `archive/`：已废弃但仍有问题线索价值的历史材料，不作为执行依据。
+本目录只保存跨 Track 内容：
 
-项目的实时阶段看 [status.md](status.md)，长期阶段门槛看 [ROADMAP.md](../ROADMAP.md)。
+- `repository-structure.md`：五 Track 目录与留痕边界；
+- `decisions/`：影响多个 Track 或整个仓库的 ADR；
+- `progress/`：项目级阶段记录；
+- `status.md`：本地总体状态；
+- `archive/cross-track/`：旧结构遗留的混合材料，仅供追溯。
+
+某个 Track 专属的计划、研究、实现、数据、系统、运行和报告必须进入该 Track 根目录。
